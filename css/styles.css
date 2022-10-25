@@ -50,7 +50,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
-    margin:auto;
+    margin: 0;
 }
 .first-part {
     color: #2196F3;
@@ -68,6 +68,7 @@ body {
 .nav-list {
     display: flex;
     align-items: center;
+    padding: 0;
     margin: 0;
     margin-left: 93px;
 }
@@ -95,7 +96,6 @@ body {
 }
 
 .header-tel-link {
-    padding: 32px 0;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -103,12 +103,15 @@ body {
     color: #757575;
 }
 .header-mail-link {
-    padding: 32px 0;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+}
+.mail-header {
+    /*padding: 32px 0;*/
     margin-right: 50px;
 }
 /*MAIN STUDIO*/
@@ -173,19 +176,20 @@ body {
     padding-bottom: 94px;
     margin: auto;
  }
+ .container-work{
+    padding:0;
+    padding-top: 94px;
+ }
  .description-work{
     margin: auto;
-    padding-top: 94px;
-    
  }
  .items-list {
     display: flex;
     gap:30px;
     width: calc(100%-3*4);
-    padding: 0 15px;
     justify-content: space-between;
-    /*padding-top: 94px;*/
     margin: 0;
+    padding: 0;
  }
  .item-picture {
     display:flex;
@@ -235,6 +239,8 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #757575;
+    margin:0;
+    margin-top: 10px;
 }
 .subtitle {
    font-weight: 700;
@@ -292,6 +298,7 @@ body {
     gap: 8px;
     width: calc(100%-4*5);
     margin: auto;
+    margin-bottom: 56px;
 }
 .cards{
     border: 1px solid #EEEEEE;
@@ -305,7 +312,6 @@ body {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 56px;
     margin-top: -30px;
     margin-left: -30px;
 }
@@ -330,8 +336,6 @@ body {
 }
 .our-team {
     background: #F5F4FA;
-    padding-bottom: 94px;
-    
 }
 .team-img {
    display: block;
@@ -367,7 +371,7 @@ body {
 }
 .foot-container{
     display: block;
-    height: 250px;
+    /*height: 250px;*/
     align-content: center;
     justify-content: flex-start;
 }
