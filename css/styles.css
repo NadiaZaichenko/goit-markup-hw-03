@@ -176,11 +176,9 @@ body {
     padding-bottom: 94px;
     margin: auto;
  }
- .container-work{
-    padding:0;
-    padding-top: 94px;
- }
+ 
  .description-work{
+    padding-top: 94px;
     margin: auto;
  }
  .items-list {
@@ -214,7 +212,8 @@ body {
     width: calc(100%-3*4);
     justify-content: center;
     align-content: center;
-    margin: auto;
+    padding: 0;
+    margin: 0;
 
 }
 
@@ -375,9 +374,7 @@ body {
     align-content: center;
     justify-content: flex-start;
 }
-.footer-portfolio {
-    margin-top: 98px;
-}
+
 .footer-nav{
    margin-bottom: 20px;
 }
